@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  max-height: 100%;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* navbar */
+.navbar {
+  display: inline-block;
+  position: relative;
+  margin-top: 0.7rem;
+  left: 68rem;
+}
+.navbar-link {
+  display: inline-block;
+  color: rgb(48, 47, 47);
+  padding: 8px;
+}
+.menu-link {
+  display: inline-block;
+  position: absolute;
+  bottom: 2px;
+}
+.sign-in {
+  display: inline-block;
+  position: relative;
+  background: #4387fd;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 3px;
+  left: 40px;
+}
+/* central */
+
+main {
+  text-align: center;
+  margin-top: 8rem;
+}
+.input-text {
+  padding: 10px;
+  padding-left: 40px;
+  margin: 18px auto;
+  width: 42%;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  outline: none;
+  background: url("./images/search-icon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+.input-text:hover {
+  box-shadow: 1px 1px 5px gainsboro;
+}
+.main-button {
+  display: inline-block;
+  background: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  padding: 9px 16px;
+  margin: 8px;
+  cursor: pointer;
+  color: #5f6368;
+  font-size: 15px;
+}
+.main-text {
+  margin-top: 10px;
+  padding: 3px;
+  font-size: 14px;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  margin-top: 178px;
+  padding: 12px;
+  background: #f2f2f2;
+  font-size: 14.5px;
+}
+.footer-left {
+  display: inline-block;
+  margin-left: 17px;
+}
+.footer-right {
+  display: inline-block;
+  margin-left: 670px;
+}
+.footer-1 {
+  color: #5f6368;
+  padding: 13px;
+}
+.footer-2 {
+  padding: 13px;
+  color: #5f6368;
+}
